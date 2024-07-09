@@ -3,6 +3,9 @@
 
 #### Technical Skills: Python, SQL, Scikit-learn, TensorFlow, Keras, Git, GitHub/GitLab, AWS
 
+- [ Linkedin Profile ](https://www.linkedin.com/in/kirtan-makwana-119a2b266/)
+
+  
 ## Education
 - B.Tech, Computer Engineering | Aditya Silver Oak University (_April 2024_)								       		
 - Diploma, Information Technology | Government Polytechnic (_March 2020_)	 			        		
@@ -25,7 +28,7 @@
 
 
 
-- [ Linkedin Profile ](https://www.linkedin.com/in/kirtan-makwana-119a2b266/)
+
 
 ## Certification Course : 
 - Machine Learning Specialization
