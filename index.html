@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kirtan Makwana | Full Stack Engineer & Supply Chain Architect</title>
-    <meta name="description" content="Portfolio of Kirtan Makwana, a Full Stack Engineer specializing in Django backend design, database optimization, and e-commerce supply chain architectures.">
+    <title>Kirtan Makwana | Full Stack Engineer, GenAI & Database Architect</title>
+    <meta name="description" content="Portfolio of Kirtan Makwana, a Full Stack Engineer specializing in GenAI, LangGraph Agents, Local LLMs fine-tuning, database migrations, and supply chain systems.">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,13 +68,13 @@
         <section id="hero" class="hero-section section-padding">
             <div class="container hero-container">
                 <div class="hero-text-block">
-                    <span class="badge" id="hero-experience-badge">Full Stack Engineer</span>
+                    <span class="badge" id="hero-experience-badge">GenAI & Database Architect</span>
                     <h1 class="hero-title" id="hero-main-title">
-                        Building Scalable <br>
-                        <span class="gradient-text">Supply Chains & <br>Web Solutions</span>
+                        Engineering AI Agents <br>
+                        <span class="gradient-text">& High-Performance<br>Database Architectures</span>
                     </h1>
                     <p class="hero-subtitle" id="hero-desc">
-                        I am a full-stack engineer and solution architect specializing in designing high-throughput backend services, database performance tuning, and robust logistics applications that power modern e-commerce.
+                        I build intelligent applications powered by fine-tuned LLMs, LangGraph agents, and LlamaIndex. I specialize in backend systems design, migrating complex databases (Oracle/MySQL to PostgreSQL), and engineering end-to-end product supply chains.
                     </p>
                     
                     <div class="hero-actions">
@@ -86,7 +86,7 @@
 
                     <div class="social-links" id="hero-socials">
                         <a href="https://github.com/kirtanmakwana" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-icon-link"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/kirtan-makwana/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-icon-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/in/kirtan-makwana/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-icon-link"><i class="fab fa-linkedin"></i></a>
                         <a href="mailto:contact@kirtanmakwana.com" aria-label="Email Me" class="social-icon-link"><i class="fa-regular fa-envelope"></i></a>
                     </div>
                 </div>
@@ -98,19 +98,22 @@
                                 <span class="dot red"></span>
                                 <span class="dot yellow"></span>
                                 <span class="dot green"></span>
-                                <span class="tab-title">kirtan.py</span>
+                                <span class="tab-title">agent.py</span>
                             </div>
-                            <pre class="code-body"><code><span class="keyword">class</span> <span class="class-name">Developer</span>:
-    <span class="keyword">def</span> <span class="function-name">__init__</span>(self):
-        self.name = <span class="string">"Kirtan Makwana"</span>
-        self.role = <span class="string">"Full Stack Engineer"</span>
-        self.core_stack = [<span class="string">"Django"</span>, <span class="string">"PostgreSQL"</span>, <span class="string">"JS"</span>]
+                            <pre class="code-body"><code><span class="keyword">from</span> langgraph.graph <span class="keyword">import</span> StateGraph
+<span class="keyword">import</span> llama_index
 
-    <span class="keyword">def</span> <span class="function-name">deliver_value</span>(self):
-        optimize_db_queries()
-        automate_supply_chain()
-        scale_infrastructure()
-        <span class="keyword">return</span> <span class="string">"Production Ready 🚀"</span></code></pre>
+<span class="keyword">class</span> <span class="class-name">AIArchitect</span>:
+    <span class="keyword">def</span> <span class="function-name">__init__</span>(self):
+        self.specialties = [
+            <span class="string">"Fine-Tuning"</span>, 
+            <span class="string">"DB Migrations"</span>,
+            <span class="string">"Supply Chain"</span>
+        ]
+        self.db = <span class="string">"Postgres (FDW + PgBouncer)"</span>
+
+    <span class="keyword">def</span> <span class="function-name">compile_agent</span>(self):
+        <span class="keyword">return</span> StateGraph(self.specialties)</code></pre>
                         </div>
                     </div>
                 </div>
@@ -120,21 +123,21 @@
         <!-- Stats Counter Section -->
         <section class="stats-section">
             <div class="container grid-4">
-                <div class="stat-card glass-card" id="stat-years">
-                    <h3 class="stat-number">10+</h3>
-                    <p class="stat-label">Successful Deployments</p>
+                <div class="stat-card glass-card" id="stat-llms">
+                    <h3 class="stat-number">4+</h3>
+                    <p class="stat-label">Local LLMs Deployed</p>
                 </div>
-                <div class="stat-card glass-card" id="stat-projects">
-                    <h3 class="stat-number">15+</h3>
-                    <p class="stat-label">Enterprise Deliveries</p>
+                <div class="stat-card glass-card" id="stat-migrations">
+                    <h3 class="stat-number">10M+</h3>
+                    <p class="stat-label">Records Migrated to PG</p>
                 </div>
-                <div class="stat-card glass-card" id="stat-query">
-                    <h3 class="stat-number">40%</h3>
-                    <p class="stat-label">DB Performance Increase</p>
+                <div class="stat-card glass-card" id="stat-agents">
+                    <h3 class="stat-number">5+</h3>
+                    <p class="stat-label">AI Agents Architected</p>
                 </div>
                 <div class="stat-card glass-card" id="stat-uptime">
                     <h3 class="stat-number">99.9%</h3>
-                    <p class="stat-label">System Architecture Uptime</p>
+                    <p class="stat-label">Database Pipeline Uptime</p>
                 </div>
             </div>
         </section>
@@ -144,20 +147,20 @@
             <div class="container grid-2-equal">
                 <div class="about-visual">
                     <div class="stack-graphic">
-                        <div class="graphic-layer gl-1">Python / Django</div>
-                        <div class="graphic-layer gl-2">PostgreSQL / SQL Optimization</div>
-                        <div class="graphic-layer gl-3">Docker / AWS Deployments</div>
-                        <div class="graphic-layer gl-4">Vanilla JS / Responsive Client</div>
+                        <div class="graphic-layer gl-1">LangGraph / LlamaIndex / Local LLMs</div>
+                        <div class="graphic-layer gl-2">Oracle / MySQL to Postgres Migration</div>
+                        <div class="graphic-layer gl-3">Postgres FDW / pgBouncer / pgAgent</div>
+                        <div class="graphic-layer gl-4">Django / WebSockets / Supply Chain</div>
                     </div>
                 </div>
                 <div class="about-text-block">
-                    <span class="section-subtitle">MY PHILOSOPHY</span>
-                    <h2 class="section-title">Bridging Code Efficiency with Logistical Operations</h2>
+                    <span class="section-subtitle">MY PHISOLOPHY</span>
+                    <h2 class="section-title">Integrating Intelligent Agents with Scalable Data Architecture</h2>
                     <p class="about-paragraph">
-                        I work across multiple domains, with a deep specialization in supply chain logistics and high-transaction e-commerce systems. I design robust backend engines that make warehouse routing, stock management, and customer ordering painless.
+                        I focus on building solutions that combine artificial intelligence with robust, enterprise-grade database design. Whether deploying local fine-tuned LLMs for specialized search tasks or orchestrating multi-agent chains with LangGraph, my goal is to deliver performant systems that solve real operational bottlenecks.
                     </p>
                     <p class="about-paragraph">
-                        My development process is built around performance tuning. Whether it is reducing complex PostgreSQL join times by 40%, implementing lockouts to prevent brute-force signins, or designing clean asynchronous pipelines for assets distribution, I write maintainable code that scales seamlessly under load.
+                        On the database side, I specialize in moving legacy systems (Oracle, MySQL) to modern PostgreSQL environments. I tackle hard problems like zero-downtime synchronization using Postgres Foreign Data Wrappers (FDW), connection pooling via PgBouncer, and custom scheduling with pgAgent to keep transactional pipelines fluid.
                     </p>
                 </div>
             </div>
@@ -167,8 +170,8 @@
         <section id="experience" class="experience-section section-padding">
             <div class="container container-narrow">
                 <div class="section-header text-center">
-                    <span class="section-subtitle">CAREER ROADMAP</span>
-                    <h2 class="section-title">Professional Milestones</h2>
+                    <span class="section-subtitle">ROADMAP</span>
+                    <h2 class="section-title">Core Competencies & Focus Areas</h2>
                 </div>
 
                 <div class="timeline" id="experience-timeline">
@@ -176,11 +179,10 @@
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content glass-card">
-                            <span class="timeline-date">2022 - Present</span>
-                            <h3 class="timeline-role">Lead Full Stack Engineer / Solutions Architect</h3>
-                            <h4 class="timeline-company">Enterprise Logistics Solutions</h4>
+                            <span class="timeline-date">AI & NLP Engineering</span>
+                            <h3 class="timeline-role">Generative AI & Agentic Workflows</h3>
                             <p class="timeline-desc">
-                                Oversee architecture and pipeline design for internal ordering systems. Spearheaded database migrations, introduced advanced caching systems (Redis), and set up strict environment configurations resulting in zero leaks and high availability across regional offices.
+                                Fine-tuning and instruction-tuning local open-source models (Llama, Mistral) for specialized domains. Building semantic retrieval pipelines with LlamaIndex and vector databases, and orchestrating multi-agent state machines using LangGraph and LangChain.
                             </p>
                         </div>
                     </div>
@@ -188,11 +190,10 @@
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content glass-card">
-                            <span class="timeline-date">2019 - 2022</span>
-                            <h3 class="timeline-role">Senior Django Developer</h3>
-                            <h4 class="timeline-company">SaaS E-commerce Ventures</h4>
+                            <span class="timeline-date">Database Migration & Optimization</span>
+                            <h3 class="timeline-role">High-Availability Postgres Architectures</h3>
                             <p class="timeline-desc">
-                                Developed multi-tenant checkout frameworks handling hundreds of thousands of transactions. Optimized SQL queries, eliminated N+1 loading bottlenecks in APIs, and engineered modular scraping systems with error handling to populate media libraries.
+                                Planning and executing legacy data migrations (Oracle to PostgreSQL, MySQL to PostgreSQL). Designing robust synchronization pipelines using Foreign Data Wrappers (FDW), handling high connection spikes with PgBouncer, and automating delta updates using pgAgent and custom cron schedulers.
                             </p>
                         </div>
                     </div>
@@ -200,11 +201,10 @@
                     <div class="timeline-item">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content glass-card">
-                            <span class="timeline-date">2018 - 2019</span>
-                            <h3 class="timeline-role">Backend Engineer</h3>
-                            <h4 class="timeline-company">InvenTrack Technologies</h4>
+                            <span class="timeline-date">Backend & Logistics</span>
+                            <h3 class="timeline-role">Full-Stack Supply Chain E-commerce</h3>
                             <p class="timeline-desc">
-                                Integrated third-party warehousing API endpoints. Built custom middlewares for auditing user activity logs, tracking session parameters, and managing localized storage.
+                                Developing end-to-end supply chain logistics frameworks and administrative dashboards. Creating real-time notifications via WebSockets, optimizing transactional workflows, and automating scraper tasks to manage distributed image repositories.
                             </p>
                         </div>
                     </div>
@@ -217,27 +217,26 @@
         <section id="projects" class="projects-section section-padding">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-subtitle">MY WORK</span>
+                    <span class="section-subtitle">PROJECT PORTFOLIO</span>
                     <h2 class="section-title">Featured Engineering Projects</h2>
                     
                     <!-- Projects Filter Controls -->
                     <div class="project-filters" id="project-filter-controls">
                         <button class="filter-btn active" data-filter="all">All Systems</button>
-                        <button class="filter-btn" data-filter="backend">Backend & Security</button>
-                        <button class="filter-btn" data-filter="supply-chain">Logistics & Supply Chain</button>
+                        <button class="filter-btn" data-filter="ai-ml">AI & GenAI</button>
+                        <button class="filter-btn" data-filter="db-fullstack">Databases & Fullstack</button>
                     </div>
                 </div>
 
                 <div class="projects-grid grid-3" id="projects-container">
                     
-                    <!-- Project 1: CrunchBites -->
-                    <div class="project-card glass-card" data-category="supply-chain backend" id="project-card-crunchbites">
+                    <!-- Project 1: CrunchBites Supply Chain -->
+                    <div class="project-card glass-card" data-category="db-fullstack" id="project-crunchbites">
                         <div class="project-visual">
                             <div class="project-overlay">
                                 <a href="https://github.com/kirtanmakwana/Supply-Chain" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="View Github Repository"><i class="fab fa-github"></i> Source Code</a>
                             </div>
                             <div class="project-tag">Django / Full Stack</div>
-                            <!-- Icon/Illustration placeholder since we avoid generic images -->
                             <div class="project-image-placeholder">
                                 <i class="fa-solid fa-boxes-packing project-main-icon"></i>
                             </div>
@@ -245,63 +244,138 @@
                         <div class="project-info">
                             <h3 class="project-title">CrunchBites: Snack Supply Chain Store</h3>
                             <p class="project-desc">
-                                A high-performance Django snack inventory and ordering system. Features automated scraper scripts with DuckDuckGo image extraction, shopping carts, session-based login tracking, and a comprehensive backend administrator panel.
+                                An end-to-end supply chain management and product ordering web app. Features automated scrapers, session cart management, security lockout middleware, and an administrator panel with real-time logs tracking logins.
                             </p>
                             <div class="project-tech-list">
                                 <span class="tech-tag">Django</span>
-                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">SQLite/Postgres</span>
                                 <span class="tech-tag">Session Auth</span>
-                                <span class="tech-tag">Scraping</span>
+                                <span class="tech-tag">Automation</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Project 2: LogiTrack Analytics -->
-                    <div class="project-card glass-card" data-category="supply-chain" id="project-card-logitrack">
+                    <!-- Project 2: Indian Law Chatbot -->
+                    <div class="project-card glass-card" data-category="ai-ml" id="project-law-bot">
                         <div class="project-visual">
                             <div class="project-overlay">
                                 <a href="https://github.com/kirtanmakwana" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="View Project"><i class="fab fa-github"></i> Repository</a>
                             </div>
-                            <div class="project-tag">Python / Analytics</div>
+                            <div class="project-tag">AI / NLP / RAG</div>
                             <div class="project-image-placeholder">
-                                <i class="fa-solid fa-chart-line project-main-icon"></i>
+                                <i class="fa-solid fa-gavel project-main-icon"></i>
                             </div>
                         </div>
                         <div class="project-info">
-                            <h3 class="project-title">LogiTrack: Real-Time Shipment Engine</h3>
+                            <h3 class="project-title">NyayaBot: Indian Law Chatbot</h3>
                             <p class="project-desc">
-                                High-throughput analytics engine processing millions of coordinate pings from fleet drivers. Combines GPS data with traffic indexes to dynamically adjust inventory predictions and delivery routes.
+                                A Retrieval-Augmented Generation (RAG) assistant running on local fine-tuned LLMs. Uses LlamaIndex and custom vector embeddings to query complex sections of Indian law, legal codes, and historical court cases.
                             </p>
                             <div class="project-tech-list">
+                                <span class="tech-tag">LlamaIndex</span>
+                                <span class="tech-tag">Fine-Tuned LLM</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">Vector DB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Database Migration Engine -->
+                    <div class="project-card glass-card" data-category="db-fullstack" id="project-db-migrator">
+                        <div class="project-visual">
+                            <div class="project-overlay">
+                                <a href="https://github.com/kirtanmakwana" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="View Project"><i class="fab fa-github"></i> Repository</a>
+                            </div>
+                            <div class="project-tag">Database Migration</div>
+                            <div class="project-image-placeholder">
+                                <i class="fa-solid fa-database project-main-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Legacy Database Migration Framework</h3>
+                            <p class="project-desc">
+                                An automated framework migrating legacy relational systems (Oracle & MySQL) to PostgreSQL. Implements PostgreSQL Foreign Data Wrappers (FDW) for live cross-server querying, PgBouncer for scaling client connection pools, and pgAgent-managed schedulers for safe delta syncing.
+                            </p>
+                            <div class="project-tech-list">
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">FDW</span>
+                                <span class="tech-tag">PgBouncer</span>
+                                <span class="tech-tag">pgAgent</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: AI Agent in Supply Chain -->
+                    <div class="project-card glass-card" data-category="ai-ml" id="project-supply-agent">
+                        <div class="project-visual">
+                            <div class="project-overlay">
+                                <a href="https://github.com/kirtanmakwana" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="View Project"><i class="fab fa-github"></i> Repository</a>
+                            </div>
+                            <div class="project-tag">GenAI / Agents</div>
+                            <div class="project-image-placeholder">
+                                <i class="fa-solid fa-diagram-project project-main-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">LangGraph Agentic Logistics Planner</h3>
+                            <p class="project-desc">
+                                A multi-agent framework built with LangGraph to optimize supply chain task routing. Orchestrates tasks across vendor inventory management, auto-negotiations, and order dispatch workflows using state graphs.
+                            </p>
+                            <div class="project-tech-list">
+                                <span class="tech-tag">LangGraph</span>
+                                <span class="tech-tag">LangChain</span>
                                 <span class="tech-tag">Python</span>
-                                <span class="tech-tag">Pandas</span>
-                                <span class="tech-tag">PostGIS</span>
-                                <span class="tech-tag">WebSockets</span>
+                                <span class="tech-tag">Agentic AI</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Project 3: SecureAuth Gateway -->
-                    <div class="project-card glass-card" data-category="backend" id="project-card-secureauth">
+                    <!-- Project 5: Messaging Web App -->
+                    <div class="project-card glass-card" data-category="db-fullstack" id="project-messaging-app">
                         <div class="project-visual">
                             <div class="project-overlay">
                                 <a href="https://github.com/kirtanmakwana" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="View Project"><i class="fab fa-github"></i> Repository</a>
                             </div>
-                            <div class="project-tag">Security / Backend</div>
+                            <div class="project-tag">WebSockets / Chat</div>
                             <div class="project-image-placeholder">
-                                <i class="fa-solid fa-shield-halved project-main-icon"></i>
+                                <i class="fa-solid fa-comments project-main-icon"></i>
                             </div>
                         </div>
                         <div class="project-info">
-                            <h3 class="project-title">SecureAuth Gateway</h3>
+                            <h3 class="project-title">Nexus: Real-Time Messaging App</h3>
                             <p class="project-desc">
-                                An OAuth2 gateway service that handles microservice credential validation, brute-force IP rate-limiting, and central token invalidation. Reduced authentication latency down to < 12ms.
+                                A modern messaging web application featuring chat rooms, presence status, typing indicators, and image/media sharing. Built on asynchronous protocols to guarantee message deliverability.
                             </p>
                             <div class="project-tech-list">
+                                <span class="tech-tag">Django Channels</span>
+                                <span class="tech-tag">WebSockets</span>
                                 <span class="tech-tag">Redis</span>
-                                <span class="tech-tag">Docker</span>
-                                <span class="tech-tag">FastAPI</span>
-                                <span class="tech-tag">JWT</span>
+                                <span class="tech-tag">Vanilla JS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: College Last Year GenAI Project -->
+                    <div class="project-card glass-card" data-category="ai-ml" id="project-college-genai">
+                        <div class="project-visual">
+                            <div class="project-overlay">
+                                <a href="https://github.com/kirtanmakwana" target="_blank" rel="noopener noreferrer" class="project-link-btn" aria-label="View Project"><i class="fab fa-github"></i> Repository</a>
+                            </div>
+                            <div class="project-tag">GenAI / NLP</div>
+                            <div class="project-image-placeholder">
+                                <i class="fa-solid fa-graduation-cap project-main-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Instruction-Tuned Research Assistant</h3>
+                            <p class="project-desc">
+                                My final year college project focusing on deploying local instruction-tuned LLMs. Built a semantic indexing tool and text summarizer for complex academic research papers using local embeddings.
+                            </p>
+                            <div class="project-tech-list">
+                                <span class="tech-tag">Instruction Tuning</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">PyTorch</span>
+                                <span class="tech-tag">HuggingFace</span>
                             </div>
                         </div>
                     </div>
@@ -314,23 +388,23 @@
         <section id="skills" class="skills-section section-padding">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-subtitle">EXPERTISE</span>
-                    <h2 class="section-title">Technologies & Proficiencies</h2>
+                    <span class="section-subtitle">SKILLS SHOWCASE</span>
+                    <h2 class="section-title">Languages, Tools & Frameworks</h2>
                 </div>
 
                 <div class="skills-grid grid-3">
                     
-                    <!-- Skill Card 1: Backend -->
-                    <div class="skills-card glass-card" id="skills-card-backend">
+                    <!-- Skill Card 1: AI / ML -->
+                    <div class="skills-card glass-card" id="skills-card-ai">
                         <div class="skill-icon-header">
-                            <i class="fa-solid fa-code"></i>
-                            <h3>Backend & APIs</h3>
+                            <i class="fa-solid fa-brain"></i>
+                            <h3>Artificial Intelligence</h3>
                         </div>
                         <ul class="skill-list">
-                            <li><span>Python / Django / Flask</span> <span class="skill-level">Expert</span></li>
-                            <li><span>RESTful API Development</span> <span class="skill-level">Expert</span></li>
-                            <li><span>Node.js / Express</span> <span class="skill-level">Intermediate</span></li>
-                            <li><span>Go / Gin</span> <span class="skill-level">Familiar</span></li>
+                            <li><span>LangGraph & LangChain</span> <span class="skill-level">Advanced</span></li>
+                            <li><span>LlamaIndex / RAG Pipelines</span> <span class="skill-level">Advanced</span></li>
+                            <li><span>Fine-Tuning & Instruction Tuning</span> <span class="skill-level">Advanced</span></li>
+                            <li><span>NLP & Custom Embeddings</span> <span class="skill-level">Advanced</span></li>
                         </ul>
                     </div>
 
@@ -338,27 +412,27 @@
                     <div class="skills-card glass-card" id="skills-card-database">
                         <div class="skill-icon-header">
                             <i class="fa-solid fa-database"></i>
-                            <h3>Databases & Caching</h3>
+                            <h3>Databases & Migration</h3>
                         </div>
                         <ul class="skill-list">
-                            <li><span>PostgreSQL / MySQL</span> <span class="skill-level">Expert</span></li>
-                            <li><span>SQL Query Optimization</span> <span class="skill-level">Expert</span></li>
-                            <li><span>Redis / Memcached</span> <span class="skill-level">Advanced</span></li>
-                            <li><span>SQLite</span> <span class="skill-level">Advanced</span></li>
+                            <li><span>PostgreSQL (FDW, pgBouncer)</span> <span class="skill-level">Expert</span></li>
+                            <li><span>Oracle to PostgreSQL Migrations</span> <span class="skill-level">Expert</span></li>
+                            <li><span>MySQL / SQLite / Redis</span> <span class="skill-level">Expert</span></li>
+                            <li><span>pgAgent & Custom Schedulers</span> <span class="skill-level">Advanced</span></li>
                         </ul>
                     </div>
 
-                    <!-- Skill Card 3: Cloud & Tools -->
+                    <!-- Skill Card 3: Backend & Web -->
                     <div class="skills-card glass-card" id="skills-card-devops">
                         <div class="skill-icon-header">
-                            <i class="fa-solid fa-server"></i>
-                            <h3>Cloud & DevOps</h3>
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Backend & Web Development</h3>
                         </div>
                         <ul class="skill-list">
-                            <li><span>Docker Containerization</span> <span class="skill-level">Advanced</span></li>
-                            <li><span>AWS (EC2, S3, RDS)</span> <span class="skill-level">Advanced</span></li>
-                            <li><span>CI/CD Pipelines (GitHub Actions)</span> <span class="skill-level">Advanced</span></li>
-                            <li><span>Linux Administration</span> <span class="skill-level">Advanced</span></li>
+                            <li><span>Python / Django / Django Channels</span> <span class="skill-level">Expert</span></li>
+                            <li><span>FastAPI / REST APIs</span> <span class="skill-level">Expert</span></li>
+                            <li><span>JavaScript (ES6+) / WebSockets</span> <span class="skill-level">Advanced</span></li>
+                            <li><span>Docker / Git / Linux</span> <span class="skill-level">Advanced</span></li>
                         </ul>
                     </div>
 
@@ -371,9 +445,9 @@
             <div class="container grid-2-equal">
                 <div class="contact-info-block">
                     <span class="section-subtitle">GET IN TOUCH</span>
-                    <h2 class="section-title">Let's Discuss Your Next Scalable Project</h2>
+                    <h2 class="section-title">Let's Discuss AI Agent & Database Scaling Projects</h2>
                     <p class="contact-desc">
-                        I am always open to exploring collaborations on complex database systems, logistics operations, and scaling enterprise web backends. Reach out via email or directly through LinkedIn!
+                        I am always open to discussing integrations of AI agent frameworks (LangGraph/LangChain), deploying local LLMs, resolving database migration bottlenecks, or building custom supply chain e-commerce platforms. Reach out today!
                     </p>
 
                     <div class="contact-details">
@@ -407,7 +481,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="form-message">Message</label>
-                                <textarea id="form-message" rows="5" required placeholder="Hi Kirtan, I'd like to discuss..."></textarea>
+                                <textarea id="form-message" rows="5" required placeholder="Hi Kirtan, let's discuss..."></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">Send Message</button>
                         </form>
