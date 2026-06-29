@@ -913,6 +913,24 @@ h1, h2, h3, h4 {
     color: var(--accent);
 }
 
+.contact-social-links {
+    margin-top: 16px;
+    gap: 20px;
+}
+
+.contact-social-links .social-icon-link {
+    width: 56px;
+    height: 56px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+}
+
+.contact-social-links .social-icon-link:nth-child(2):hover {
+    color: var(--text-primary);
+    border-color: var(--accent-purple);
+    box-shadow: 0 4px 12px rgba(168, 85, 247, 0.2);
+}
+
 /* Form Styling */
 .form-container {
     padding: 40px;
