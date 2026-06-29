@@ -3,21 +3,21 @@
    ========================================================================== */
 :root {
     /* Colors */
-    --bg-dark: #0b0f19;
-    --bg-card: rgba(22, 28, 45, 0.4);
-    --border-color: rgba(255, 255, 255, 0.06);
-    --border-hover: rgba(255, 255, 255, 0.15);
+    --bg-dark: #121110;          /* Warm obsidian/charcoal */
+    --bg-card: rgba(28, 26, 25, 0.45); /* Warm stone card background */
+    --border-color: rgba(255, 255, 255, 0.04);
+    --border-hover: rgba(231, 111, 81, 0.15); /* Copper hover border */
     
-    --primary-gradient: linear-gradient(135deg, #0ea5e9 0%, #a855f7 100%);
-    --secondary-gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
-    --glow-cyan: rgba(14, 165, 233, 0.15);
-    --glow-purple: rgba(168, 85, 247, 0.15);
+    --primary-gradient: linear-gradient(135deg, #e76f51 0%, #e9c46a 100%); /* Sunset Terracotta to Gold */
+    --secondary-gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%);
+    --glow-cyan: rgba(231, 111, 81, 0.1);
+    --glow-purple: rgba(233, 196, 106, 0.08);
     
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --text-muted: #64748b;
-    --accent: #0ea5e9;
-    --accent-purple: #a855f7;
+    --text-primary: #fafaf9;     /* Warm ivory */
+    --text-secondary: #a8a29e;   /* Warm stone text */
+    --text-muted: #78716c;       /* Muted warm stone */
+    --accent: #e76f51;           /* Terracotta accent */
+    --accent-purple: #e9c46a;    /* Sunset gold */
     
     /* Fonts */
     --font-heading: 'Outfit', sans-serif;
@@ -136,9 +136,9 @@ h1, h2, h3, h4 {
 }
 
 .badge {
-    background: rgba(14, 165, 233, 0.1);
+    background: rgba(231, 111, 81, 0.08);
     color: var(--accent);
-    border: 1px solid rgba(14, 165, 233, 0.2);
+    border: 1px solid rgba(231, 111, 81, 0.15);
     padding: 6px 16px;
     border-radius: 30px;
     font-size: 0.85rem;
@@ -164,13 +164,13 @@ h1, h2, h3, h4 {
 .bg-glow-1 {
     top: -100px;
     right: -100px;
-    background-color: #0ea5e9;
+    background-color: #e76f51;
 }
 
 .bg-glow-2 {
     top: 800px;
     left: -200px;
-    background-color: #a855f7;
+    background-color: #e9c46a;
     animation-delay: -5s;
 }
 
@@ -432,7 +432,7 @@ h1, h2, h3, h4 {
     color: var(--text-primary);
     border-color: var(--accent);
     transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2);
+    box-shadow: 0 4px 12px rgba(231, 111, 81, 0.2);
 }
 
 /* Code Visual Block */
@@ -475,11 +475,11 @@ h1, h2, h3, h4 {
     overflow-x: auto;
 }
 
-.code-body .keyword { color: #f43f5e; }
-.code-body .class-name { color: #a855f7; }
-.code-body .function-name { color: #0ea5e9; }
-.code-body .string { color: #10b981; }
-.code-body .number { color: #f59e0b; }
+.code-body .keyword { color: #e76f51; }
+.code-body .class-name { color: #f4a261; }
+.code-body .function-name { color: #e9c46a; }
+.code-body .string { color: #a7c957; }
+.code-body .number { color: #f2cc8f; }
 
 /* ==========================================================================
    STATS SECTION
@@ -928,7 +928,7 @@ h1, h2, h3, h4 {
 .contact-social-links .social-icon-link:nth-child(2):hover {
     color: var(--text-primary);
     border-color: var(--accent-purple);
-    box-shadow: 0 4px 12px rgba(168, 85, 247, 0.2);
+    box-shadow: 0 4px 12px rgba(233, 196, 106, 0.2);
 }
 
 /* Form Styling */
