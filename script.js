@@ -13,8 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const icon = menuToggle.querySelector('i');
             if (mobileDrawer.classList.contains('open')) {
                 icon.className = 'fa-solid fa-xmark';
+                document.body.classList.add('no-scroll');
             } else {
                 icon.className = 'fa-solid fa-bars';
+                document.body.classList.remove('no-scroll');
             }
         });
 
@@ -23,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             link.addEventListener('click', () => {
                 mobileDrawer.classList.remove('open');
                 menuToggle.querySelector('i').className = 'fa-solid fa-bars';
+                document.body.classList.remove('no-scroll');
             });
         });
     }
