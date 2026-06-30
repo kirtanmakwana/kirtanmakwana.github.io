@@ -1127,10 +1127,15 @@ h1, h2, h3, h4 {
 
     .nav-container {
         padding: 0 18px;
+        position: relative;
+        justify-content: flex-end;
     }
 
     .logo {
         font-size: 1.15rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .nav-links {
