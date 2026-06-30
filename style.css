@@ -40,6 +40,7 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
+    overflow-x: hidden;
 }
 
 body {
@@ -49,6 +50,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     position: relative;
+    width: 100%;
 }
 
 body.no-scroll {
@@ -1128,14 +1130,16 @@ h1, h2, h3, h4 {
     .nav-container {
         padding: 0 18px;
         position: relative;
-        justify-content: flex-end;
+        justify-content: center;
     }
 
     .logo {
         font-size: 1.15rem;
+    }
+
+    .nav-actions {
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        right: 18px;
     }
 
     .nav-links {
@@ -1310,6 +1314,10 @@ h1, h2, h3, h4 {
 
     .nav-container {
         padding: 0 14px;
+    }
+
+    .nav-actions {
+        right: 14px;
     }
 
     .logo {
